@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JotavDev/proyecto-javier-aguirre-34815/static/css/main.4d22553c.css",
-    "main.js": "/JotavDev/proyecto-javier-aguirre-34815/static/js/main.63a27b49.js",
-    "static/js/787.5d39bacd.chunk.js": "/JotavDev/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js",
-    "index.html": "/JotavDev/proyecto-javier-aguirre-34815/index.html",
-    "main.4d22553c.css.map": "/JotavDev/proyecto-javier-aguirre-34815/static/css/main.4d22553c.css.map",
-    "main.63a27b49.js.map": "/JotavDev/proyecto-javier-aguirre-34815/static/js/main.63a27b49.js.map",
-    "787.5d39bacd.chunk.js.map": "/JotavDev/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js.map"
+    "main.css": "/proyecto-javier-aguirre-34815/static/css/main.4d22553c.css",
+    "main.js": "/proyecto-javier-aguirre-34815/static/js/main.a91070bb.js",
+    "static/js/787.5d39bacd.chunk.js": "/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js",
+    "index.html": "/proyecto-javier-aguirre-34815/index.html",
+    "main.4d22553c.css.map": "/proyecto-javier-aguirre-34815/static/css/main.4d22553c.css.map",
+    "main.a91070bb.js.map": "/proyecto-javier-aguirre-34815/static/js/main.a91070bb.js.map",
+    "787.5d39bacd.chunk.js.map": "/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d22553c.css",
-    "static/js/main.63a27b49.js"
+    "static/js/main.a91070bb.js"
   ]
 }
