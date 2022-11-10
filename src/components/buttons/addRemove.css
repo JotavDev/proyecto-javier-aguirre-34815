@@ -1,0 +1,20 @@
+.addRemove{
+    width: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+button{
+    background-color: #ADD8E5;
+    color: #F6E8D3;
+    border: solid #F6E8D3 1px;
+}
+
+input{
+    border: solid #F6E8D3 1px;
+    text-align: center;
+}
