@@ -6,13 +6,14 @@ function NavBar(){
     return <header>
         <nav>
             <div className="DivLogo">
-                <img className="LogoHeader" src="https://i.imgur.com/eSdXgH0.png" alt="Logo Pukem" />
+                <Link to="/"><img className="LogoHeader" src="https://i.imgur.com/eSdXgH0.png" alt="Logo Pukem" /></Link>
             </div>
             <div className="DivMenu">
                 <ul className="UlMenuHeader">
-                    <li className='LiMenuHeader'><Link to="/">Home</Link></li>
                     <li className='LiMenuHeader'><Link to="/">Tienda</Link></li>
-                    <li className='LiMenuHeader'><Link to="/">Contacto</Link></li>
+                    <li className='LiMenuHeader'><Link to="/category/animales">Animales</Link></li>
+                    <li className='LiMenuHeader'><Link to="/category/personajes">Personajes</Link></li>
+                    <li className='LiMenuHeader'><Link to="/category/fantasia">Fantasía</Link></li>
                     <li className='LiMenuHeader'><Link to="/"><CartWidget counter="0"/></Link></li>
                 </ul>
             </div>

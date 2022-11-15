@@ -1,0 +1,31 @@
+.itemDetailsContent{
+    width: 75%;
+    display: flex;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.itemDetailImage{
+    width: 50%;
+    height: auto;
+}
+
+.itemDetailImage img{
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: solid black 2px;
+}
+
+.itemDetailInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 5%;
+}
+
+.itemDetailInformation h2{
+    font-size: 5em;
+    margin: 0;
+}

@@ -1,7 +1,9 @@
 import "./items.css"
-import AddRemove from "../buttons/AddRemove"
+import VerMas from "../buttons/VerMas"
+import { Link } from "react-router-dom"
 
-function Item({imageUrl,title,price}){
+function Item({imageUrl,title,price, id}){
+    const urlDetail = `/detail/${id}`;
     return (
         <div className='card'>
             <div className='cardImage'>
@@ -10,8 +12,10 @@ function Item({imageUrl,title,price}){
             <div className='cardDetails'>
                 <h3>{title}</h3>
                 <h4>{price}</h4>
+                <Link to={urlDetail}>
+                    <VerMas/>
+                </Link>
             </div>
-            <AddRemove/>
         </div>
     )
 }

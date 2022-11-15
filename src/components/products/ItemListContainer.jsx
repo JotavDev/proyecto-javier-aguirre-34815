@@ -1,18 +1,36 @@
 import './itemlistcontainer.css';
 import Item from "./Items";
-import products from "../../Products";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import getItems from '../../mockService';
 
 function ItemListContainer(){
+    const[products, setProducts] = useState([])
+    const { idCategory } = useParams();
+
+    async function getItemsAsync(){
+        let respuesta = await getItems(idCategory);
+        setProducts(respuesta)
+    }
+
+    useEffect(() => {
+        getItemsAsync();
+    }, [idCategory]);
+
     return(
         <div className='itemList'>
             <div className='cardsContainer'>
-                {products.map((pro) => {
+                {products.map((product) => {
                     return (
-                        <Item
-                            imageUrl = {pro.imageUrl}
-                            title = {pro.title}
-                            price = {pro.price}
-                        />
+                        <>
+                            <Item
+                                imageUrl = {product.imageUrl}
+                                id = {product.id}
+                                title = {product.title}
+                                price = {product.price}
+                                category = {product.category}
+                            />
+                        </>
                     );
                 })}
             </div>

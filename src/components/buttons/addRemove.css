@@ -1,11 +1,7 @@
 .addRemove{
     width: 60%;
-    margin: 0;
+    margin: 15px 0 0 0;
     display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
 }
 
 button{
