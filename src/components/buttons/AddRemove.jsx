@@ -1,23 +1,26 @@
+import React, { useState } from "react";
 import "./addRemove.css";
-import React from "react";
-import products from "../../Products";
+import VerMas from "./VerMas";
 
-function AddRemove(props) {
-    let [count, setCount] = React.useState(1);
+function AddRemove({stock , onAddToCart}) {
+    const [count, setCount] = useState(1);
 
     function handleAdd(){
-        if (count < props.stock) setCount(count + 1);
+        if (count < stock) setCount(count + 1);
     }
 
-    function handleRemove(){
-        if (count > 0 ) setCount(count - 1);
+    function handleSubstract(){
+        if (count > 1) setCount(count - 1);
     }
 
-    return (
+    return(
         <div className="addRemove">
-            <button onClick={handleRemove}>-</button>
+            <button onClick={handleSubstract}>-</button>
             <input type="text" value={count}/>
             <button onClick={handleAdd}>+</button>
+            <div>
+                <button onClick={() => onAddToCart(count) }>Agregar al carrito</button>
+            </div>
         </div>
     )
 }

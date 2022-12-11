@@ -1,0 +1,30 @@
+.checkoutContainer{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout{
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout h1{
+    color: grey;
+}
+
+.checkout h4{
+    text-align: center;
+    color: grey;
+}
+
+.successIcon{
+    width: 25%;
+    height: auto;
+}

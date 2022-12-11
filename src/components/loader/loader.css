@@ -1,0 +1,29 @@
+.pageLoaderContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaderContent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.encabezadoLoader{
+    font-weight: 100;
+    font-size: 45px;
+    color: #ADD8E4,
+}
+
+.loaderImage{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

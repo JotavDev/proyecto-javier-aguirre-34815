@@ -1,10 +1,12 @@
 .addRemove{
     width: 60%;
+    height: 30px;
     margin: 15px 0 0 0;
     display: flex;
 }
 
 button{
+    height: 30px;
     background-color: #ADD8E5;
     color: #F6E8D3;
     border: solid #F6E8D3 1px;
