@@ -4,13 +4,14 @@ import VerMas from "../buttons/VerMas";
 import { createOrder } from "../services/firestore";
 import { useNavigate } from "react-router-dom";
 import CartForm from "./CartForm";
+import CarritoVacio from "./CarritoVacio";
 import "./cartView.css";
 
 function CartView(){
-    const { cart, removeItem, clear, priceInCart } = useContext(cartContext);
+    const { cart, removeItem, clear } = useContext(cartContext);
     const navigate = useNavigate()
 
-    if(cart.length === 0) return <h1>Carrito vacío</h1>;
+    if(cart.length === 0) return <CarritoVacio/>;
 
     async function handleCheckout(evt, data){
         const order = {
