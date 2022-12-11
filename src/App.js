@@ -18,7 +18,7 @@ function App() {
         <NavBar/>
         <ImagePromotion/>
         <Routes>
-          <Route path="/" element={<ItemListContainer/>}/>
+          <Route path="/proyecto-javier-aguirre-34815/" element={<ItemListContainer/>}/>
           <Route path="/category/:idCategory" element={<ItemListContainer/>}/>
           <Route path="/detail/:idItem" element={<ItemDetailContainer/>}/>
           <Route path="/cart" element={<CartView/>}></Route>

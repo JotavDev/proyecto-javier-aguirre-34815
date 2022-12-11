@@ -12,7 +12,7 @@ function Checkout(){
                 <img className="successIcon" src="https://i.imgur.com/kE3KCKR.png" alt="Success icon" />
                 <h1>¡Gracias por tu compra!</h1>
                 <h4>Recibirás por correo electrónico los datos de tu pedido. <br/>El código de tu compra es: {idOrder}</h4>
-                <Link to="/">
+                <Link to="/proyecto-javier-aguirre-34815/">
                     <VerMas estilos={{marginTop: "25px"}}>
                         Volver al home
                     </VerMas>

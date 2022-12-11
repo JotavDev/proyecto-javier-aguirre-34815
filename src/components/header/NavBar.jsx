@@ -10,7 +10,7 @@ function NavBar(){
             </div>
             <div className="DivMenu">
                 <ul className="UlMenuHeader">
-                    <li className='LiMenuHeader'><Link to="/">Tienda</Link></li>
+                    <li className='LiMenuHeader'><Link to="/proyecto-javier-aguirre-34815/">Tienda</Link></li>
                     <li className='LiMenuHeader'><Link to="/category/animales">Animales</Link></li>
                     <li className='LiMenuHeader'><Link to="/category/personajes">Personajes</Link></li>
                     <li className='LiMenuHeader'><Link to="/category/fantasia">Fantasía</Link></li>
