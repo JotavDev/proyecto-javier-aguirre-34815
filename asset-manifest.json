@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/proyecto-javier-aguirre-34815/static/css/main.e8fb5054.css",
-    "main.js": "/proyecto-javier-aguirre-34815/static/js/main.3576047e.js",
+    "main.css": "/proyecto-javier-aguirre-34815/static/css/main.724d142e.css",
+    "main.js": "/proyecto-javier-aguirre-34815/static/js/main.cf1c242b.js",
     "static/js/787.5d39bacd.chunk.js": "/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js",
     "index.html": "/proyecto-javier-aguirre-34815/index.html",
-    "main.e8fb5054.css.map": "/proyecto-javier-aguirre-34815/static/css/main.e8fb5054.css.map",
-    "main.3576047e.js.map": "/proyecto-javier-aguirre-34815/static/js/main.3576047e.js.map",
+    "main.724d142e.css.map": "/proyecto-javier-aguirre-34815/static/css/main.724d142e.css.map",
+    "main.cf1c242b.js.map": "/proyecto-javier-aguirre-34815/static/js/main.cf1c242b.js.map",
     "787.5d39bacd.chunk.js.map": "/proyecto-javier-aguirre-34815/static/js/787.5d39bacd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8fb5054.css",
-    "static/js/main.3576047e.js"
+    "static/css/main.724d142e.css",
+    "static/js/main.cf1c242b.js"
   ]
 }
